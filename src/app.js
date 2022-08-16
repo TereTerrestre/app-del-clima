@@ -6,12 +6,10 @@ const forecast = require('./utils/forecast')
 const app = express()
 const port = process.env.PORT || 3000
 
-// Path for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
 
-// Setup handlerbar engine and views
 app.set('view engine', 'hbs')
 app.set('views', viewsPath)
 hbs.registerPartials(partialsPath)
@@ -34,7 +32,7 @@ app.get('/help', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        titulo: 'Conocenos!',
+        titulo: 'Get to know us!',
         nombre: 'Jose Eslava'
     })
 })

@@ -1,25 +1,26 @@
 body {
-    color: #333333;
-    font-family: arial;
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 0 16px;
-
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+
+    align-items: left;
+    padding-left: 5%;
+    background-color:#5850ef;
+
 }
 
 footer {
-    color: #888888;
+    color: #d2d0ff;
     border-top: 1px solid #eeeeee;
-    margin-top: 16px;
+    margin-top: 370px;
     padding: 16px 0;
 }
 
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+
 }
 
 h1 {
@@ -28,9 +29,13 @@ h1 {
 }
 
 header a {
-    color: #888888;
-    margin-right: 16px;
+    color: #d2d0ff;
+    margin-right: 0px;
+    margin: 10px;
     text-decoration: none;
+
+
+
 }
 
 .portrait {
@@ -44,11 +49,15 @@ header a {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+    border-radius: 10px;
+    
 }
 
 button {
     cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
-    padding: 8px;
+    border: 0px solid #ffffff;
+    background: #d2d0ff;
+    padding: 8px 20px;
+    color: #5850ef;
+    border-radius: 20px;
 }
